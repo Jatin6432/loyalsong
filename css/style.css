@@ -1,0 +1,528 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    
+}
+
+body {
+    font-family: 'BebasNeue';
+    font-weight: 200;
+    font-style: normal;
+    font-size: 14px;
+    letter-spacing: .1em;
+    line-height: 1.9em;
+}
+
+li {
+    list-style: none;
+}
+.layer {
+    background-color: rgba(0, 0, 0, 0.65);
+    z-index: -2;
+    height: 200vh;
+}
+
+.spacer {
+    padding: 0px 17px 17px 17px;
+}
+
+.space {
+    padding: 17px 17px 17px 17px;
+}
+
+.navbar a {
+    position: relative;
+}
+
+nav ul li a::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    border-radius: 5px;
+    bottom: -4px;
+    left: 0;
+    background-color: white;
+    visibility: hidden;
+    transform: scaleX(0);
+    transition: 0.6s ease;
+}
+
+nav ul li a:hover::before {
+    visibility: visible;
+    transform: scaleX(1);
+
+}
+
+
+/*------------------------ header start------------------------------------- */
+
+
+/*------------------------ header end------------------------------------- */
+
+
+
+/* ------------------section1-------------------------- */
+.section1 {
+    width: 100%;
+    height: 150vh;
+    background-image: url(../img/2.jpg);
+    /* background-attachment: fixed;
+    background-size: cover;
+    background-position: center; */
+}
+
+.section1 .container-fluid {
+    padding: 15px 0px;
+}
+
+
+.section1 .layer .navbar .container-fluid .head img {
+    width: 200px;
+}
+
+
+.layer_text {
+    margin-top: 91px;
+    padding: 0px 185px;
+}
+
+.layer_text img {
+    width: 80px;
+    z-index: 11111;
+    margin-top: 150px;
+}
+
+
+
+.layer_text .img .img_wrap {
+    padding: 17px;
+    text-align: center;
+}
+
+.layer_text .name_head {
+    padding: 17px;
+    color: white;
+}
+
+.layer_text .heading a {
+    color: white;
+}
+
+.layer_text .heading h6 {
+    margin-bottom: 15px;
+    letter-spacing: 3px;
+}
+
+.layer_text .heading h1 {
+    margin: 15px 0px 37px 0px;
+}
+
+.layer_text .heading h1 a {
+    /* border-bottom: 5px solid rgba(255,255,255, alpha); */
+    border-bottom: 5px solid rgba(255, 255, 255, alpha);
+}
+
+.layer_text .heading {
+    color: white;
+}
+
+/*-------------------------- section 1 end--------------------------- */
+
+
+
+/* -------------------------section2 start---------------------------------------- */
+
+.section2 {
+    height: 150vh;
+    background-image: url(../img/10.jpg);
+    background-repeat: no-repeat;
+    /* background-attachment: fixed;
+    background-size: cover;
+    
+     background-position: center;  */
+}
+
+.section2 .layer .index_page {
+    padding: 50px 185px;
+}
+
+.section2 .layer .index_page .columns-12 .row .col .img-block {
+    padding: 17px;
+}
+
+.section2 .layer .index_page .columns-12 .row .col .row .col .html-block {
+    padding: 17px;
+
+}
+
+.section2 .layer .index_page .columns-12 .row .col .row .col .html-block .content-block .html-content h1 {
+    margin-bottom: 37px;
+}
+
+.section2 .layer .index_page .columns-12 .row .col .row .col .html-block .content-block .html-content p {
+    margin: 14px 0px;
+}
+
+
+
+/* -------------------------section2 end---------------------------------------- */
+/* -------------------------section3 start---------------------------------------- */
+
+
+
+.section3 {
+    width: 100%;
+    height: 150vh;
+    background-image: url(../img/5.jpg);
+    /* background-attachment: fixed;
+    background-size: cover;
+    background-position: center; */
+}
+
+.section3 .layer1 .Index-page {
+    padding: 50px 185px;
+}
+
+.section3 .layer1 .Index-page .columns-12 .row .col .html-block {
+
+    padding: 17px;
+}
+
+.section3 .layer1 .Index-page .columns-12 .row .col .html-block .block-content .html-content h1 {
+    margin-bottom: 37px;
+}
+
+.section3 .layer1 .Index-page .columns-12 .row .col .html-block .block-content .html-content p {
+    margin-top: 14px;
+}
+
+
+.section3 .layer1 .Index-page .columns-12 .row .col .button-block {
+    padding: 17px;
+}
+
+.section3 .layer1 .Index-page .columns-12 .row .col .button-block .button a {
+    padding: 13px 26px;
+    border: 2px solid #a480ff;
+    text-decoration: none;
+    color: #a480ff;
+    font-weight: 500;
+}
+
+.section3 .layer1 .Index-page .columns-12 .row .col .button-block .button :hover {
+    background-color: #a480ff;
+    color: black;
+    transition: 0.5s;
+}
+
+/* -------------------------section3 end---------------------------------------- */
+/* -------------------------section4 start---------------------------------------- */
+.section4 {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../img/3.jpg);
+    /* background-attachment: fixed;
+    background-size: cover;
+    background-position: center; */
+
+}
+
+.section4 .layer1 .Index-page {
+    padding: 50px 185px;
+}
+
+.section4 .layer1 .Index-page .columns-12 .row .col .html-block {
+
+    padding: 17px;
+}
+
+.section4 .layer1 .Index-page .columns-12 .row .col .html-block .block-content .html-content h1 {
+    margin-bottom: 37px;
+}
+
+.section4 .layer1 .Index-page .columns-12 .row .col .html-block .block-content .html-content p {
+    margin-top: 14px;
+}
+
+
+.section4 .layer1 .Index-page .columns-12 .row .col .button-block {
+    padding: 17px;
+}
+
+.section4 .layer1 .Index-page .columns-12 .row .col .button-block .button a {
+    padding: 13px 26px;
+    border: 2px solid #a480ff;
+    text-decoration: none;
+    color: #a480ff;
+
+    font-weight:500;
+}
+
+.section4 .layer1 .Index-page .columns-12 .row .col .button-block .button :hover {
+    background-color: #a480ff;
+    color: black;
+    transition: 0.5s;
+}
+
+/* -------------------------section4 end---------------------------------------- */
+
+.layer1 {
+    background-color: rgba(0, 0, 0, 0.8);
+    /* padding: 15px; */
+    z-index: -2;
+    height: 150vh;
+}
+
+.Footer .Footer-inner {
+    padding: 25px 185px;
+}
+
+
+
+
+
+
+.Index-nav {
+    /* display: none; */
+    /* -webkit-box-align: center; */
+    /* -ms-flex-align: center; */
+    /* -webkit-align-items: center; */
+    align-items: center;
+    position: fixed;
+    top: 50%;
+    bottom: 0;
+    z-index: 11111;
+    /* width: 0; */
+    right: 25px;
+    margin: 0;
+    padding: 0;
+}
+
+.Index-nav-indicator:after {
+    content: '';
+    display: inline-block;
+    width: 10px;
+    /* align-items: ; */
+    height: 2px;
+    background-color: rgba(255, 255, 255, .5);
+    -webkit-transition: background-color 170ms ease-out, width 170ms ease-out;
+    -moz-transition: background-color 170ms ease-out, width 170ms ease-out;
+    -ms-transition: background-color 170ms ease-out, width 170ms ease-out;
+    -o-transition: background-color 170ms ease-out, width 170ms ease-out;
+    transition: background-color 170ms ease-out, width 170ms ease-out;
+}
+
+
+
+
+
+
+
+
+.header {
+    width: 100%;
+    height: 120vh;
+    background-image: url(../img/6.jpg);
+    /* background-attachment: fixed;
+    background-size: cover;
+    background-position: center; */
+}
+
+.header .container-fluid {
+    padding: 15px 180px;
+}
+
+
+.header .layer1 .navbar .container-fluid .head img {
+    width: 200px;
+}
+
+.layer_text {
+    margin-top: 91px;
+    padding: 0px 185px;
+}
+
+.layer_text h1 {
+
+    letter-spacing: 4px;
+}
+
+.layer_text h3 {
+    font-size: 10px;
+    letter-spacing: 3px;
+}
+
+.layer_text img {
+    width: 80px;
+    z-index: 11111;
+}
+
+
+
+
+
+.Main {
+    background-color: black;
+    color: white;
+
+}
+
+.Main .Main-content {
+    padding: 80px 185px;
+}
+
+.Main .Main-content .col-12 .row .col-8 .space-block .block-content hr {
+    box-sizing: content-box;
+    color: white;
+    border: none;
+    background-color: #bbb;
+    height: 1px;
+
+    }
+/* .Main .Main-content .col-12 .form-block .block-content .form-wrapper .react-form-contents .button:hover {
+
+    background-color: white;
+    color: black;
+    padding: 25px;
+}*/
+
+
+
+
+.navbar .container-fluid {
+    padding: 0px 180px;
+}
+
+.navbar .container-fluid .head img {
+    width: 200px;
+}
+
+
+.mymusic {
+    background-image: url(../img/4.jpg);
+    height: 100vh;
+    /* background-attachment: fixed; */
+    /* background-size: cover; */
+    /* background-position: center; */
+
+}
+.mymusic .layer1 .layer_text .img{
+    margin-top:150px ;
+}
+
+.podcast .Content-outer .Main .Main-content {
+    padding: 80px 185px;
+}
+
+ .Index-nav .Index-nav-inner a {
+    /* text-decoration: none; */
+    color: white;
+    font-size: 16px;
+}
+
+.Index-nav .Index-nav-inner .Index-nav-item span {
+    display: none;
+    position: absolute;
+    right: 13px;
+
+}
+
+.Index-nav .Index-nav-inner .Index-nav-item .Index-nav-indicator.Index-nav-indicator.active::after {
+    width: 20px;
+}
+
+.Index-nav .Index-nav-inner .Index-nav-item:hover span {
+    display: block;
+    transition: 0.5s ease;
+
+}
+
+
+
+
+/*-------------------------------- login page------------------------------- */
+
+
+.submenu{
+    width: 200px    ;
+
+}
+.submenu a{
+    text-decoration: none;
+    color: white;
+
+}
+
+
+
+
+
+/* ----------------------------------------------------- */
+
+.Main .Main-content .col-12 .row .col-8 .button-block .block-content .block-button a{
+    color: white;
+    font-weight:500;
+}
+.Main .Main-content .col-12 .row .col-8 .button-block .block-content .block-button:hover a{
+    background:white;
+    color: black;
+    transition: 0.5s;
+    font-weight: 500;
+}
+
+
+/* ---------------------------------------- */
+Main .Main-content .col-12 .row .col-6 .form-block .block-content .form-wrapper form .button input{
+    color: white;
+    font-weight: 600;
+    font-family: 'Baskervville';
+    font-style: italic;
+    background: transparent;
+    
+}
+Main .Main-content .col-12 .row .col-6 .form-block .block-content .form-wrapper form .button:hover input {
+    background-color: white;
+    transition: 0.5s;
+    color: black;
+    font-weight: 600;
+}
+
+
+.icon-list i{
+    font-size: 20px;
+}
+.icon-list:hover i{
+    color: rgba(24, 22,29, .9);
+}
+
+.icon-list i:hover{
+    color: white;
+}
+
+
+
+
+
+
+/*---------------------------- myservices--------------------------- */
+.Main .Main-content .col-12 .row .col-8 .html-block .block-content .html-content .mb-3{
+    color: #a480ff;
+
+}
+.layer2{
+    background-color: rgba(0, 0, 0, 0.8);
+    /* padding: 15px; */
+    z-index: -2;
+    height: 120vh;
+}
+
+
+
+
+.fixed-top{
+    z-index: 1;
+    top: 0px;
+}
